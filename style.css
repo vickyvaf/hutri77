@@ -2,17 +2,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Rubik+Distressed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;800&family=Rubik+Distressed&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Poppins:wght@200;500;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Poppins:wght@200;500;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Poppins:wght@200;500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Poppins:wght@200;500;800&display=swap");
 
 * {
   margin: 0;
   padding: 0;
-  font-family: serif
+  font-family: serif;
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
 .hero {
@@ -22,6 +22,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 video {
   filter: grayscale(100%);
@@ -29,6 +30,7 @@ video {
 }
 
 .teks {
+  width: 100%;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -50,13 +52,13 @@ h4 {
 }
 
 .tujuh {
-    background-color: #f3ec78;
-    background-image: linear-gradient(red, crimson, #eaeaea, white);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
+  background-color: #f3ec78;
+  background-image: linear-gradient(red, crimson, #eaeaea, white);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
 h2 {
@@ -64,16 +66,16 @@ h2 {
 }
 
 @media only screen and (max-width: 600px) {
-    h1 {
-        font-size: 2rem;
-    }
-    h4 {
-        font-size: 1rem;
-        top: 50px;
-    }
-    h2 {
-        font-size: 15rem;
-    }
+  h1 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1rem;
+    top: 50px;
+  }
+  h2 {
+    font-size: 15rem;
+  }
 }
 
 /* .container {
