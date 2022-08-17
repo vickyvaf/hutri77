@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Rubik+Distressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;800&family=Rubik+Distressed&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Poppins:wght@200;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Poppins:wght@200;500;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: serif
+}
+
+body {
+    background-color: black;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+video {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.teks {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  position: absolute;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+h4 {
+  color: crimson;
+  position: relative;
+  top: 70px;
+  font-size: 2rem;
+}
+
+.tujuh {
+    background-color: #f3ec78;
+    background-image: linear-gradient(red, crimson, #eaeaea, white);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+h2 {
+  font-size: 22rem;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 1rem;
+        top: 50px;
+    }
+    h2 {
+        font-size: 15rem;
+    }
+}
+
+/* .container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(red, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 1024px;
+    height: 500px;
+    border-radius: 5px;
+    background-color: #eaeaea;
+    box-shadow: 0 1px 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.tujuh {
+    position: absolute;
+    z-index: -1;
+    color: crimson;
+    font-size: 10rem;
+    display: flex;
+    margin-bottom: -50px;
+}
+
+.pulih {
+    color: black;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    z-index: 0;
+} */
